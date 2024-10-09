@@ -50,7 +50,7 @@ style:
     - {start: "\n", label: "%s.", candidate: "%s", comment: " %s", end: "", sep: " "}
   key_font: symbol.ttf #鍵盤字型
   key_height: 44 #鍵高
-  key_long_text_size: 34 #長標籤字號
+  key_long_text_size: 24 #長標籤字號
   key_text_size: 32 #鍵字號
   key_width: 10.0 #鍵寬，佔螢幕寬的百分比
   keyboards: [.default,game,tired] #鍵盤配置：自動鍵盤、字母、數字、符號
@@ -1109,7 +1109,7 @@ preset_keyboards:
     - {click: Tab}
     - {click: "-", long_click: select_all}
     - {click: '.', long_click: copy}
-    - {click: '|', long_click: Mode_switch}
+    - {click: Mode_switch}
     - {click: ':', long_click: paste}
     - {click: Control_L}
     - {click: Left}
